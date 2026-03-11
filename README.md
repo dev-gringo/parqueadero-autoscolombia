@@ -29,11 +29,13 @@ El proyecto sigue una estructura de paquetes organizada por responsabilidades:
 * Java JDK 17 o superior.
 * MySQL Server activo.
 * Un IDE (IntelliJ IDEA recomendado).
-  **2. Base de Datos**
- * Asegúrese de crear la base de datos y las tablas ejecutando el script de inicialización en su cliente MySQL:
-   CREATE DATABASE parqueadero_autoscolombia;
-USE parqueadero_autoscolombia;
--- Ejecutar script de creación de tablas e inserts iniciales
+
+**2. Base de Datos**
+* Asegúrese de crear la base de datos y las tablas ejecutando el script de inicialización en su cliente MySQL:
+* CREATE DATABASE parqueadero_autoscolombia;
+*USE parqueadero_autoscolombia;
+*Ejecutar script de creación de tablas e inserts iniciales
+   
    **3. Configuración de Spring**
    *Actualice las credenciales en el archivo src/main/resources/application.properties:
    *spring.datasource.url=jdbc:mysql://localhost:3306/parqueadero_autoscolombia
