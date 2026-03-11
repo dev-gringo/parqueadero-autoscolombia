@@ -14,7 +14,7 @@ public class Movimiento {
     private Integer id_movimiento;
 
     @ManyToOne // Muchos movimientos pueden pertenecer a un mismo vehículo
-    @JoinColumn(name = "id_vehiculo", nullable = false)
+    @JoinColumn(name = "id_vehiculo", referencedColumnName = "id_vehiculo")
     private Vehiculo vehiculo;
 
     @Column(name = "id_celda", nullable = false)
