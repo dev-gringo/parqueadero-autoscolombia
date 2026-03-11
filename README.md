@@ -2,12 +2,9 @@
 
 **Autos Colombia** es una solución backend desarrollada para digitalizar y optimizar la operación diaria de estacionamientos. El sistema permite gestionar el flujo de vehículos, controlar la disponibilidad de celdas en tiempo real y automatizar el cálculo de tiempos de permanencia.
 
-##  Características Principales
+##  Estado del Proyecto (Iteración 1)
 
-* **Registro de Operaciones:** Control de entrada y salida de vehículos con sellado de tiempo.
-* **Gestión de Celdas:** Monitoreo dinámico de espacios disponibles y ocupados.
-* **Lógica Transaccional:** Procesamiento seguro de datos para garantizar la integridad de los registros.
-* **Arquitectura Escalable:** Construido siguiendo principios de diseño limpio para facilitar futuras expansiones.
+* Actualmente, el proyecto ha completado su primera fase de integración, logrando la persistencia de datos real y la exposición de servicios REST funcionales. Se ha migrado exitosamente de una base de datos en memoria a un entorno persistente con MySQL.
 
 ## Tecnologías Utilizadas
 
@@ -30,4 +27,4 @@ El proyecto sigue una estructura de paquetes organizada por responsabilidades:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/parqueadero-api.git](https://github.com/tu-usuario/parqueadero-api.git)
+   git clone https://github.com/dev-gringo/parqueadero-autoscolombia.git
