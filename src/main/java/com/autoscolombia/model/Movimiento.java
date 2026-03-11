@@ -31,6 +31,19 @@ public class Movimiento {
     @Enumerated(EnumType.STRING)
     private EstadoMovimiento estado = EstadoMovimiento.ACTIVO;
 
+    // Dentro de la clase Movimiento.java
+    public void setFechaEntrada(LocalDateTime fechaEntrada) {
+        this.fechaEntrada = fechaEntrada;
+    }
+
+    public void setEstado(EstadoMovimiento estado) {
+        this.estado = estado;
+    }
+
+    public void setFechaSalida(LocalDateTime fechaSalida) {
+        this.fechaSalida = fechaSalida;
+    }
+
     public enum EstadoMovimiento {
         ACTIVO, FINALIZADO
     }
