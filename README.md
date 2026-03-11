@@ -36,9 +36,9 @@ USE parqueadero_autoscolombia;
 -- Ejecutar script de creación de tablas e inserts iniciales
    **3. Configuración de Spring**
    *Actualice las credenciales en el archivo src/main/resources/application.properties:
-   spring.datasource.url=jdbc:mysql://localhost:3306/parqueadero_autoscolombia
-   spring.datasource.username=root
-   spring.datasource.password=NuevaClave2026
+   *spring.datasource.url=jdbc:mysql://localhost:3306/parqueadero_autoscolombia
+   *spring.datasource.username=root
+   *spring.datasource.password=NuevaClave2026
 
 1. **Clonar el repositorio:**
    ```bash
